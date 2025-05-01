@@ -27,7 +27,11 @@ nav {
   margin: 10px;
 }
 
-nav a {
+nav li {
+  display: inline;
+}
+
+nav li a {
   color: seashell;
   text-decoration: underline;
   padding: 10px;
@@ -35,4 +39,34 @@ nav a {
 
 nav a:hover {
   color: gainsboro;
+}
+
+/* Main body of page styling */
+main {
+  position: relative;
+  top: 70px;
+}
+
+h2 {
+  padding-bottom: 5px;
+}
+
+h2, h4 {
+  margin: 10px;
+}
+
+/* Mission statement styles */
+#mission {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height: 700px;
+}
+
+.banner {
+  background-color: black;
+  opacity: 0.9;
+  width: 1200px;
+  text-align: center;
 }
