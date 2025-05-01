@@ -53,6 +53,8 @@ h2 {
 
 h2, h4 {
   margin: 10px;
+  width: 1000px;
+  text-align: center;
 }
 
 /* Mission statement styles */
@@ -62,6 +64,7 @@ h2, h4 {
   justify-content: center;
   background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
   height: 700px;
+  margin-bottom: 50px;
 }
 
 .banner {
@@ -69,4 +72,27 @@ h2, h4 {
   opacity: 0.9;
   width: 1200px;
   text-align: center;
+}
+
+/* Monthly tea styles */
+#featured-tea {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  width: 1000px;
+}
+
+.tea-image {
+  width: 300px;
+  height: 200px;
+  margin-bottom: 10px;
+  padding: 0 auto;
+}
+
+#featured-tea p {
+  margin: 0;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
