@@ -10,12 +10,16 @@ body {
 /* Header Styles */
 header {
   position: fixed;
+  top: 0;
+  left: 0;
   height: 69px;
   width: 100%;
   border-bottom: 1px solid seashell;
+  background-color: black;
   display: inline-flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 1000;
 }
 
 img {
@@ -127,4 +131,22 @@ h3 {
   height: 300px;
   text-align: center;
   margin: 40px;
+}
+
+/* Footer styles */
+footer {
+  position: relative;
+  top: 70px;
+}
+
+footer div {
+  text-align: center;
+  height: 200px;
+}
+
+footer p {
+  margin-left: 20px;
+  padding-bottom: 20px;
+  text-align: left;
+  font-weight: bold;
 }
